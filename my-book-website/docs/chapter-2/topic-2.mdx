@@ -1,0 +1,64 @@
+# Data Pipeline Design
+
+Data pipelines are the backbone of AI-Native systems, connecting data sources to ML models and providing the information needed for both training and inference.
+
+## Pipeline Architecture Components
+
+### Ingestion Layer
+
+The ingestion layer handles:
+
+- Batch data loading from databases
+- Streaming data from event sources
+- API data collection
+- File-based data uploads
+
+### Processing Layer
+
+The processing layer includes:
+
+- Data cleaning and transformation
+- Feature engineering
+- Data validation and quality checks
+- Format conversion for ML models
+
+### Storage Layer
+
+Data storage for AI systems requires:
+
+- Raw data lakes for historical preservation
+- Processed data warehouses for analytics
+- Feature stores for ML models
+- Model input/output storage
+
+## Best Practices
+
+### Data Quality
+
+- Implement schema validation
+- Monitor data drift
+- Set up anomaly detection
+- Create data quality dashboards
+
+### Performance Optimization
+
+- Parallel processing of large datasets
+- Caching frequently accessed features
+- Compression of data in transit
+- Incremental data updates
+
+### Security and Compliance
+
+- Encryption of data in transit and at rest
+- Access controls for sensitive data
+- Audit logging for compliance
+- Data lineage tracking
+
+## Monitoring and Observability
+
+AI data pipelines require specialized monitoring:
+
+- Data freshness tracking
+- Pipeline execution metrics
+- Error rate monitoring
+- Performance SLA tracking

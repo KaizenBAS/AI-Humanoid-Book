@@ -1,0 +1,26 @@
+{
+  "id": "chapter-2/topic-2",
+  "title": "Data Pipeline Design",
+  "description": "Data pipelines are the backbone of AI-Native systems, connecting data sources to ML models and providing the information needed for both training and inference.",
+  "source": "@site/docs/chapter-2/topic-2.mdx",
+  "sourceDirName": "chapter-2",
+  "slug": "/chapter-2/topic-2",
+  "permalink": "/docs/chapter-2/topic-2",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/chapter-2/topic-2.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Modern Cloud Architectures",
+    "permalink": "/docs/chapter-2/topic-1"
+  },
+  "next": {
+    "title": "Chapter 3: Model Development and Deployment",
+    "permalink": "/docs/chapter-3/"
+  }
+}

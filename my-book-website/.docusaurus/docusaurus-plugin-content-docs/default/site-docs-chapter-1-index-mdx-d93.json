@@ -1,0 +1,29 @@
+{
+  "id": "chapter-1/index",
+  "title": "Chapter 1: Introduction to AI-Native Development",
+  "description": "This chapter provides an overview of AI-Native Development, establishing the foundational concepts that will be built upon throughout the book.",
+  "source": "@site/docs/chapter-1/index.mdx",
+  "sourceDirName": "chapter-1",
+  "slug": "/chapter-1/",
+  "permalink": "/docs/chapter-1/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/chapter-1/index.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "Defining AI-Native",
+    "permalink": "/docs/chapter-1/topic-1"
+  }
+}

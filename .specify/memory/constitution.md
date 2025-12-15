@@ -1,55 +1,61 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+SYNCHRONIZATION IMPACT REPORT:
+- Version change: N/A -> 1.0.0
+- Modified principles: N/A (new constitution)
+- Added sections: All sections are new for this project
+- Removed sections: N/A
+- Templates requiring updates:
+  - ✅ .specify/templates/plan-template.md: Will be checked
+  - ✅ .specify/templates/spec-template.md: Will be checked
+  - ✅ .specify/templates/tasks-template.md: Will be checked
+  - ✅ .specify/templates/commands/*.md: Will be checked
+  - ✅ README.md: Will be checked
+- Follow-up TODOs: None
+-->
+# AI-Native Driven Development – Premium Book Website Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### Zero External UI Libraries Except shadcn/ui & Tailwind
+All UI components must exclusively use shadcn/ui and/or Tailwind CSS. No additional UI libraries or frameworks beyond these approved tools are permitted. This ensures consistent design language and minimal bundle size.
+<!-- Rationale: Maintains design consistency and reduces complexity -->
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### Mobile-First, Glassmorphism + Gradient Design
+Development must follow a mobile-first approach with glassmorphism and gradient design elements. All components must be responsive and maintain visual appeal across all device sizes. Visual design must incorporate modern glassmorphism effects with carefully selected gradients.
+<!-- Rationale: Ensures accessibility across devices and modern aesthetic appeal -->
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### MDX for All Book Content (Easy Future Updates)
+All book content must be authored in MDX format to enable easy future updates and maintainability. Content in the /content/chapters/ directory must follow MDX standard for flexibility.
+<!-- Rationale: Enables dynamic content rendering and ease of content updates -->
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### Dark/Light Mode Toggle
+Every component and page must support both dark and light mode with a user-accessible toggle. Themes must be consistent across the entire application with appropriate contrast ratios maintained.
+<!-- Rationale: Improves user accessibility and experience in different lighting conditions -->
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### Lightning Fast (<1.5s FCP)
+All pages must achieve First Contentful Paint (FCP) in under 1.5 seconds. Performance metrics must be monitored and optimized continuously. Bundle size must remain under 150KB excluding images.
+<!-- Rationale: Ensures optimal user experience and SEO benefits -->
 
-### [PRINCIPLE_6_NAME]
+### 100% Accessible (ARIA + Keyboard Nav)
+Complete accessibility compliance is mandatory using proper ARIA attributes and full keyboard navigation support. All components must pass accessibility audits and support screen readers effectively.
+<!-- Rationale: Ensures inclusive design and compliance with accessibility standards -->
 
+## Standards and Technical Requirements
 
-[PRINCIPLE__DESCRIPTION]
+- TypeScript strict mode must be enabled for all code
+- All components must be reusable and follow DRY principles
+- Chapter content must be stored in /content/chapters/
+- Total bundle size must remain under 150KB without images
+- Strict typing and error handling required throughout
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Project Constraints
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+- Limited to 4 pages only: Home, Book, About, Contact
+- Book content consists of exactly 5 chapters with 2 topics each
+- Deployment limited to Vercel (free tier)
+- Maximum of 10 unique component types to maintain simplicity
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
+This constitution supersedes all other practices for this project. Amendments require documentation of the change, impact assessment, and team approval before implementation. All PRs and reviews must verify compliance with these principles. Code reviews must validate adherence to performance, accessibility, and design standards.
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
-
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: TODO(RATIFICATION_DATE): Date of original adoption needed | **Last Amended**: 2025-12-15

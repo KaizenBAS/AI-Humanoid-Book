@@ -1,0 +1,17 @@
+{
+  "id": "author-bio",
+  "title": "Author Bio & Vision",
+  "description": "About the Author",
+  "source": "@site/docs/author-bio.mdx",
+  "sourceDirName": ".",
+  "slug": "/author-bio",
+  "permalink": "/docs/author-bio",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/author-bio.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {}
+}

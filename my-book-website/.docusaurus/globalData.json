@@ -1,0 +1,112 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "author-bio",
+              "path": "/docs/author-bio"
+            },
+            {
+              "id": "chapter-1/index",
+              "path": "/docs/chapter-1/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapter-1/topic-1",
+              "path": "/docs/chapter-1/topic-1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapter-1/topic-2",
+              "path": "/docs/chapter-1/topic-2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapter-2/index",
+              "path": "/docs/chapter-2/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapter-2/topic-1",
+              "path": "/docs/chapter-2/topic-1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapter-2/topic-2",
+              "path": "/docs/chapter-2/topic-2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapter-3/index",
+              "path": "/docs/chapter-3/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapter-3/topic-1",
+              "path": "/docs/chapter-3/topic-1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapter-3/topic-2",
+              "path": "/docs/chapter-3/topic-2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapter-4/index",
+              "path": "/docs/chapter-4/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapter-4/topic-1",
+              "path": "/docs/chapter-4/topic-1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapter-4/topic-2",
+              "path": "/docs/chapter-4/topic-2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapter-5/index",
+              "path": "/docs/chapter-5/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapter-5/topic-1",
+              "path": "/docs/chapter-5/topic-1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapter-5/topic-2",
+              "path": "/docs/chapter-5/topic-2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

@@ -1,0 +1,92 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+/* Enable smooth scrolling for the entire document */
+html {
+  scroll-behavior: smooth;
+}
+
+/* General Docusaurus overrides */
+.hero--primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+/* Custom styles for premium appearance */
+:root {
+  --ifm-color-primary: #667eea;
+  --ifm-color-primary-dark: #5a6fd8;
+  --ifm-color-primary-darker: #5267c9;
+  --ifm-color-primary-darkest: #4251a3;
+  --ifm-color-primary-light: #768bec;
+  --ifm-color-primary-lighter: #869bf0;
+  --ifm-color-primary-lightest: #a7b5f6;
+}
+
+/* Glassmorphism effect */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+/* Premium button styles */
+.button--premium {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.button--premium:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Custom styles for mobile */
+@media (max-width: 768px) {
+  .hero--primary {
+    padding: 2rem 1rem;
+  }
+
+  /* Mobile-specific styles for better reading experience */
+  .markdown h1 {
+    font-size: 1.75rem;
+  }
+
+  .markdown h2 {
+    font-size: 1.5rem;
+  }
+
+  .markdown h3 {
+    font-size: 1.25rem;
+  }
+
+  .markdown {
+    line-height: 1.6;
+  }
+
+  .chapter-navigation {
+    padding: 1rem 0;
+  }
+
+  .chapter-navigation .button {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+  }
+}
