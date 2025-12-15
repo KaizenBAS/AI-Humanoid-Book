@@ -1,7 +1,7 @@
 {
   "id": "chapter-2/index",
-  "title": "Chapter 2: Infrastructure for AI-Native Systems",
-  "description": "This chapter explores the infrastructure requirements and architectural patterns for supporting AI-Native applications.",
+  "title": "Chapter 2: The \"Physical AI\" Edge Kit & Robot Lab",
+  "description": "This chapter explores the components required for your Physical AI development environment, from edge computing to robot hardware options.",
   "source": "@site/docs/chapter-2/index.mdx",
   "sourceDirName": "chapter-2",
   "slug": "/chapter-2/",
@@ -16,14 +16,5 @@
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "AI-Native vs Traditional Development",
-    "permalink": "/docs/chapter-1/topic-2"
-  },
-  "next": {
-    "title": "Modern Cloud Architectures",
-    "permalink": "/docs/chapter-2/topic-1"
   }
 }

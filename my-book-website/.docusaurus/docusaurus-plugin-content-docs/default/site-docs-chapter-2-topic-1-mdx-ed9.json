@@ -1,7 +1,7 @@
 {
   "id": "chapter-2/topic-1",
-  "title": "Modern Cloud Architectures",
-  "description": "AI-Native systems require specialized cloud architectures that can handle the unique demands of machine learning workloads. These architectures must support distributed training, real-time inference, and continuous model updates.",
+  "title": "2. The \"Physical AI\" Edge Kit",
+  "description": "Since a full humanoid robot is expensive, students learn \"Physical AI\" by setting up the nervous system on a desk before deploying it to a robot. This kit covers Module 3 (Isaac ROS) and Module 4 (VLA).",
   "source": "@site/docs/chapter-2/topic-1.mdx",
   "sourceDirName": "chapter-2",
   "slug": "/chapter-2/topic-1",
@@ -13,14 +13,5 @@
   "version": "current",
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055000,
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Chapter 2: Infrastructure for AI-Native Systems",
-    "permalink": "/docs/chapter-2/"
-  },
-  "next": {
-    "title": "Data Pipeline Design",
-    "permalink": "/docs/chapter-2/topic-2"
-  }
+  "frontMatter": {}
 }

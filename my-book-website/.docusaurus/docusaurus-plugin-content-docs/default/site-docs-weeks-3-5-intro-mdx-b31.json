@@ -1,0 +1,29 @@
+{
+  "id": "weeks-3-5/intro",
+  "title": "Weeks 3-5: ROS 2 Fundamentals",
+  "description": "This section covers the core fundamentals of ROS 2 (Robot Operating System 2), the middleware framework that connects all the components of your robotics system together.",
+  "source": "@site/docs/weeks-3-5/intro.mdx",
+  "sourceDirName": "weeks-3-5",
+  "slug": "/weeks-3-5/intro",
+  "permalink": "/docs/weeks-3-5/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/weeks-3-5/intro.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sensor Systems: LIDAR, Cameras, IMUs, Force/Torque Sensors",
+    "permalink": "/docs/weeks-1-2/sensor-systems"
+  },
+  "next": {
+    "title": "ROS 2 Architecture and Core Concepts",
+    "permalink": "/docs/weeks-3-5/ros2-architecture"
+  }
+}

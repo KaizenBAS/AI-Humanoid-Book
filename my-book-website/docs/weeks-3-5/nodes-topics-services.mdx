@@ -1,0 +1,33 @@
+# Nodes, Topics, Services, and Actions
+
+## Nodes
+
+Nodes are the fundamental building blocks of ROS 2. Each node typically performs a single, modular function within a larger robot system. These nodes communicate with each other to form complex robotic applications and behaviors.
+
+When creating nodes, best practices include keeping nodes modular and focused on a single responsibility, using composition over inheritance, handling errors gracefully, and implementing appropriate logging for debugging. Nodes can have configurable parameters that can be set at launch time or modified during runtime, allowing for flexible configuration without code changes.
+
+## Topics and Publishers/Subscribers
+
+Topics implement the publish/subscribe communication pattern, which is fundamental to ROS 2. Publishers send messages to a topic while subscribers receive messages from that same topic. This decouples publishers from subscribers, allowing for flexible system design where multiple publishers can send to the same topic and multiple subscribers can receive from it.
+
+The system uses Quality of Service settings for topics, which allow specifying important characteristics like durability (whether late joining subscribers receive older messages), reliability (guaranteed delivery vs. best-effort), and history (how many messages to keep in the queue).
+
+## Services
+
+Services implement request/response communication, which is different from the asynchronous nature of topics. A service client sends a request message to a service server and waits for a response. This is synchronous communication, meaning the client must wait for the server's response before proceeding.
+
+Services are ideal for discrete operations that have a clear beginning and end, such as requesting the current robot position or commanding a specific action. The service interface defines the request format and response format that both client and server must follow.
+
+## Actions
+
+Actions are designed for long-running tasks that provide feedback during execution. They are particularly useful for operations that might take significant time, like navigating to a goal location or performing a complex manipulation task.
+
+An action consists of three components: a goal (which the client sends to start the action), feedback (periodic updates sent by the server during execution), and a result (the final outcome sent by the server when the action completes).
+
+Actions support cancellation, allowing clients to request that a server stop executing an action before completion. This is crucial for robot safety, allowing operators to interrupt potentially dangerous processes.
+
+## Communication Patterns
+
+The choice of communication pattern depends on the specific use case. Topics are best for streaming data like sensor readings, images, or robot states that need to be constantly updated. Services are ideal for discrete operations with clear input and output, such as setting parameters or requesting specific computations. Actions are appropriate for long-running operations that need to provide feedback during execution, such as navigation, manipulation, or calibration procedures.
+
+Using appropriate naming conventions for topics, services, and actions is important for system clarity and maintainability. Common conventions include using namespace-like prefixes to group related communications. The asynchronous nature of topics makes them suitable for real-time systems where timing is critical for sensor data and control signals.

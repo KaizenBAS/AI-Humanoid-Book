@@ -1,125 +1,31 @@
-# Adaptive System Updates
+# Capstone: Simulated Humanoid Robot with Conversational AI
 
-AI-Native systems must adapt to changing conditions through continuous updates that maintain performance while minimizing disruption.
+## Project Overview
+The capstone project combines all the Physical AI concepts learned throughout the course into a single integrated system. Students will build a simulated humanoid robot capable of conversational interaction and physical movement in response to verbal commands.
 
-## Update Strategies
+## Requirements
+- Implement a complete humanoid robot simulation in Isaac Sim or Gazebo
+- Integrate ROS 2 nodes for robot control and perception
+- Deploy a conversational AI system (GPT-based) for natural language interaction
+- Demonstrate successful sim-to-real transfer of learned behaviors
+- Implement multimodal interaction (speech, gesture, vision)
 
-### Model Updates
+## Implementation Steps
+1. Build the robot model with accurate physical properties
+2. Implement the nervous system using ROS 2 nodes and packages
+3. Integrate perception systems (vision, localization, mapping)
+4. Connect GPT-based conversational AI to robot commands
+5. Test and evaluate the integrated system
 
-Different approaches for updating models:
+## Evaluation Criteria
+- Smooth integration of all subsystems
+- Successful demonstration of physical responses to verbal commands
+- Performance in various simulated scenarios
+- Quality of documentation and code
+- Innovation in solving system integration challenges
 
-#### Retraining
-
-- Complete model retraining with new data
-- Scheduled updates based on performance
-- Trigger-based updates for drift detection
-- Validation before deployment
-
-#### Online Learning
-
-- Incremental updates with new data
-- Real-time adaptation capabilities
-- Concept drift handling
-- Catastrophic forgetting prevention
-
-#### Ensemble Methods
-
-- Combining multiple models
-- Weighted predictions for stability
-- Model diversity for robustness
-- Dynamic model selection
-
-### Deployment Patterns
-
-#### Blue-Green Deployment
-
-- Maintain two identical production environments
-- Switch traffic between versions
-- Immediate rollback capability
-- Zero-downtime updates
-
-#### Canary Releases
-
-- Gradual rollout to small user segments
-- Performance monitoring during rollout
-- Automatic rollback on failure detection
-- Risk mitigation through slow rollout
-
-#### Shadow Deployment
-
-- Run new model in parallel with current
-- Compare predictions without user impact
-- Performance validation on live data
-- Safe comparison without risk
-
-## Automated Updates
-
-### Continuous Integration
-
-Automated model deployment pipeline:
-- Code changes trigger testing
-- Performance validation
-- Quality gates and approvals
-- Automated deployment on success
-
-### Automated Rollbacks
-
-System-automated rollbacks:
-- Performance degradation triggers
-- Drift detection initiates rollback
-- Manual overrides available
-- Safety mechanisms for stability
-
-## Evolution Management
-
-### Version Control
-
-Track all model iterations:
-- Model architecture versions
-- Training data versions
-- Feature engineering changes
-- Performance benchmark results
-
-### Experiment Tracking
-
-Maintain comprehensive records:
-- Hyperparameter tracking
-- Training metrics history
-- Model comparison results
-- A/B test outcomes
-
-## Governance and Compliance
-
-### Change Management
-
-Document all updates:
-- Update justification and goals
-- Impact assessment
-- Risk evaluation
-- Approval processes
-
-### Regulatory Compliance
-
-Maintain compliance standards:
-- Audit trails for all changes
-- Regulatory requirement tracking
-- Documentation for compliance reviews
-- Transparency in update processes
-
-## Performance Optimization
-
-### Resource Management
-
-Optimize update processes:
-- Automated resource scaling
-- Cost optimization for training
-- Efficient update scheduling
-- Resource allocation strategies
-
-### Performance Monitoring
-
-Track update effectiveness:
-- Before and after comparisons
-- Performance degradation detection
-- Improvement measurement
-- ROI analysis for updates
+## Deliverables
+- Complete source code repository
+- Detailed documentation of implementation
+- Video demonstration of the working system
+- Performance analysis and lessons learned

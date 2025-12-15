@@ -1,0 +1,17 @@
+{
+  "id": "weeks-6-7/gazebo-setup",
+  "title": "Gazebo Simulation Environment Setup",
+  "description": "Introduction to Gazebo",
+  "source": "@site/docs/weeks-6-7/gazebo-setup.mdx",
+  "sourceDirName": "weeks-6-7",
+  "slug": "/weeks-6-7/gazebo-setup",
+  "permalink": "/docs/weeks-6-7/gazebo-setup",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/weeks-6-7/gazebo-setup.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {}
+}

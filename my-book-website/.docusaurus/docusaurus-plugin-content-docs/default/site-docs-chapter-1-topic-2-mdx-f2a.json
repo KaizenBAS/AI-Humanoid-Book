@@ -1,7 +1,7 @@
 {
   "id": "chapter-1/topic-2",
-  "title": "AI-Native vs Traditional Development",
-  "description": "While traditional software development follows a deterministic approach where specific inputs produce predictable outputs, AI-Native development embraces probabilistic and adaptive systems.",
+  "title": "Hardware Requirements",
+  "description": "This course is technically demanding. It sits at the intersection of three heavy computational loads: Physics Simulation (Isaac Sim/Gazebo), Visual Perception (SLAM/Computer Vision), and Generative AI (LLMs/VLA).",
   "source": "@site/docs/chapter-1/topic-2.mdx",
   "sourceDirName": "chapter-1",
   "slug": "/chapter-1/topic-2",
@@ -13,14 +13,5 @@
   "version": "current",
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055000,
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Defining AI-Native",
-    "permalink": "/docs/chapter-1/topic-1"
-  },
-  "next": {
-    "title": "Chapter 2: Infrastructure for AI-Native Systems",
-    "permalink": "/docs/chapter-2/"
-  }
+  "frontMatter": {}
 }

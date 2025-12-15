@@ -1,64 +1,21 @@
-# Data Pipeline Design
+# Option C: The "Premium" Lab (Sim-to-Real specific)
 
-Data pipelines are the backbone of AI-Native systems, connecting data sources to ML models and providing the information needed for both training and inference.
+If the goal is to actually deploy the Capstone to a real humanoid:
 
-## Pipeline Architecture Components
+- **Robot**: Unitree G1 Humanoid.
+- **Why**: It is one of the few commercially available humanoids that can actually walk dynamically and has an SDK open enough for students to inject their own ROS 2 controllers.
 
-### Ingestion Layer
+## 4. Summary of Architecture
 
-The ingestion layer handles:
+To teach this successfully, your lab infrastructure should look like this:
 
-- Batch data loading from databases
-- Streaming data from event sources
-- API data collection
-- File-based data uploads
+| Component | Hardware | Function |
+|-----------|----------|----------|
+| Sim Rig | PC with RTX 4080 + Ubuntu 22.04 | Runs Isaac Sim, Gazebo, Unity, and trains LLM/VLA models. |
+| Edge Brain | Jetson Orin Nano | Runs the "Inference" stack. Students deploy their code here. |
+| Sensors | RealSense Camera + Lidar | Connected to the Jetson to feed real-world data to the AI. |
+| Actuator | Unitree Go2 or G1 (Shared) | Receives motor commands from the Jetson. |
 
-### Processing Layer
+If you do not have access to RTX-enabled workstations, we must restructure the course to rely entirely on cloud-based instances (like AWS RoboMaker or NVIDIA's cloud delivery for Omniverse), though this introduces significant latency and cost complexity.
 
-The processing layer includes:
-
-- Data cleaning and transformation
-- Feature engineering
-- Data validation and quality checks
-- Format conversion for ML models
-
-### Storage Layer
-
-Data storage for AI systems requires:
-
-- Raw data lakes for historical preservation
-- Processed data warehouses for analytics
-- Feature stores for ML models
-- Model input/output storage
-
-## Best Practices
-
-### Data Quality
-
-- Implement schema validation
-- Monitor data drift
-- Set up anomaly detection
-- Create data quality dashboards
-
-### Performance Optimization
-
-- Parallel processing of large datasets
-- Caching frequently accessed features
-- Compression of data in transit
-- Incremental data updates
-
-### Security and Compliance
-
-- Encryption of data in transit and at rest
-- Access controls for sensitive data
-- Audit logging for compliance
-- Data lineage tracking
-
-## Monitoring and Observability
-
-AI data pipelines require specialized monitoring:
-
-- Data freshness tracking
-- Pipeline execution metrics
-- Error rate monitoring
-- Performance SLA tracking
+Building a "Physical AI" lab is a significant investment. You will have to choose between building a physical On-Premise Lab at Home (High CapEx) versus running a Cloud-Native Lab (High OpEx).

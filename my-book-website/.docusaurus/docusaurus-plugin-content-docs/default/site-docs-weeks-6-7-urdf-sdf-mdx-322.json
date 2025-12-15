@@ -1,0 +1,17 @@
+{
+  "id": "weeks-6-7/urdf-sdf",
+  "title": "URDF and SDF Robot Description Formats",
+  "description": "Unified Robot Description Format (URDF)",
+  "source": "@site/docs/weeks-6-7/urdf-sdf.mdx",
+  "sourceDirName": "weeks-6-7",
+  "slug": "/weeks-6-7/urdf-sdf",
+  "permalink": "/docs/weeks-6-7/urdf-sdf",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/weeks-6-7/urdf-sdf.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {}
+}

@@ -56,86 +56,218 @@
     },
     "config": "config---about-5-e-9-bcb"
   },
-  "/docs-e78": {
+  "/docs-bb2": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-efb": {
+  "/docs-58d": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-3b7": {
+  "/docs-de0": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/author-bio-625": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-author-bio-0-a-3-a63"
   },
-  "/docs/chapter-1/-30c": {
+  "/docs/chapter-1/-332": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-chapter-1-d-93-03b"
   },
-  "/docs/chapter-1/topic-1-545": {
+  "/docs/chapter-1/topic-1-371": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-chapter-1-topic-16-df-7cf"
   },
-  "/docs/chapter-1/topic-2-e2d": {
+  "/docs/chapter-1/topic-2-5e1": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-chapter-1-topic-2-f-2-a-2ad"
   },
-  "/docs/chapter-2/-f71": {
+  "/docs/chapter-2/-eda": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-chapter-2-f-20-71e"
   },
-  "/docs/chapter-2/topic-1-f8e": {
+  "/docs/chapter-2/topic-1-381": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-chapter-2-topic-1-ed-9-f21"
   },
-  "/docs/chapter-2/topic-2-663": {
+  "/docs/chapter-2/topic-2-187": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-chapter-2-topic-2418-47b"
   },
-  "/docs/chapter-3/-176": {
+  "/docs/chapter-3/-994": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-chapter-3-993-c26"
   },
-  "/docs/chapter-3/topic-1-556": {
+  "/docs/chapter-3/topic-1-18a": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-chapter-3-topic-1-c-75-553"
   },
-  "/docs/chapter-3/topic-2-645": {
+  "/docs/chapter-3/topic-2-d77": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-chapter-3-topic-209-e-639"
   },
-  "/docs/chapter-4/-709": {
+  "/docs/chapter-4/-eba": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-chapter-4-495-ecd"
   },
-  "/docs/chapter-4/topic-1-74f": {
+  "/docs/chapter-4/topic-1-3df": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-chapter-4-topic-151-b-5f3"
   },
-  "/docs/chapter-4/topic-2-cdf": {
+  "/docs/chapter-4/topic-2-994": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-chapter-4-topic-2554-5c1"
   },
-  "/docs/chapter-5/-308": {
+  "/docs/chapter-5/-1cf": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-chapter-5-574-a09"
   },
-  "/docs/chapter-5/topic-1-3ed": {
+  "/docs/chapter-5/topic-1-30b": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-chapter-5-topic-1411-cb2"
   },
-  "/docs/chapter-5/topic-2-f6f": {
+  "/docs/chapter-5/topic-2-27c": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-chapter-5-topic-2-b-8-a-922"
   },
   "/docs/intro-65e": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-introf-84-2b4"
+  },
+  "/docs/week-13/conversation-design-d4b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-week-13-conversation-design-98-e-122"
+  },
+  "/docs/week-13/gpt-integration-ad9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-week-13-gpt-integratione-85-d3c"
+  },
+  "/docs/week-13/intro-1f2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-week-13-introf-42-84f"
+  },
+  "/docs/week-13/multi-modal-interaction-75c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-week-13-multi-modal-interactionbd-4-60b"
+  },
+  "/docs/week-13/speech-recognition-0ed": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-week-13-speech-recognition-29-a-c0b"
+  },
+  "/docs/weeks-1-2/foundations-c0a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-weeks-1-2-foundations-23-c-317"
+  },
+  "/docs/weeks-1-2/from-digital-ai-7cc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-weeks-1-2-from-digital-ai-069-699"
+  },
+  "/docs/weeks-1-2/humanoid-landscape-30f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-weeks-1-2-humanoid-landscape-177-afd"
+  },
+  "/docs/weeks-1-2/intro-6be": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-weeks-1-2-intro-6-c-7-4e8"
+  },
+  "/docs/weeks-1-2/sensor-systems-14e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-weeks-1-2-sensor-systemsc-80-f70"
+  },
+  "/docs/weeks-11-12/bipedal-locomotion-a67": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-weeks-11-12-bipedal-locomotion-0-d-8-011"
+  },
+  "/docs/weeks-11-12/human-robot-interaction-440": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-weeks-11-12-human-robot-interaction-1-d-7-27e"
+  },
+  "/docs/weeks-11-12/intro-f5e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-weeks-11-12-introbfd-7d4"
+  },
+  "/docs/weeks-11-12/kinematics-dynamics-ed1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-weeks-11-12-kinematics-dynamics-275-f06"
+  },
+  "/docs/weeks-11-12/manipulation-grasping-6b6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-weeks-11-12-manipulation-graspingecf-e55"
+  },
+  "/docs/weeks-3-5/building-packages-63d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-weeks-3-5-building-packages-807-585"
+  },
+  "/docs/weeks-3-5/intro-cff": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-weeks-3-5-introb-31-f47"
+  },
+  "/docs/weeks-3-5/launch-files-942": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-weeks-3-5-launch-files-531-576"
+  },
+  "/docs/weeks-3-5/nodes-topics-services-2db": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-weeks-3-5-nodes-topics-services-5-f-9-9ba"
+  },
+  "/docs/weeks-3-5/ros2-architecture-ad7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-weeks-3-5-ros-2-architecture-450-3b0"
+  },
+  "/docs/weeks-3-5/ros2-core-concepts-dfd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-weeks-3-5-ros-2-core-concepts-81-a-d2b"
+  },
+  "/docs/weeks-6-7/gazebo-environment-71e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-weeks-6-7-gazebo-environment-87-f-163"
+  },
+  "/docs/weeks-6-7/gazebo-setup-4c6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-weeks-6-7-gazebo-setup-531-a00"
+  },
+  "/docs/weeks-6-7/intro-4d6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-weeks-6-7-intro-632-67d"
+  },
+  "/docs/weeks-6-7/physics-simulation-a71": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-weeks-6-7-physics-simulationcfa-39b"
+  },
+  "/docs/weeks-6-7/robot-description-d90": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-weeks-6-7-robot-description-4-bd-895"
+  },
+  "/docs/weeks-6-7/unity-simulation-b90": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-weeks-6-7-unity-simulation-132-49b"
+  },
+  "/docs/weeks-6-7/urdf-sdf-39a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-weeks-6-7-urdf-sdf-322-f34"
+  },
+  "/docs/weeks-8-10/intro-4cb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-weeks-8-10-intro-031-ffd"
+  },
+  "/docs/weeks-8-10/isaac-sdk-968": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-weeks-8-10-isaac-sdkac-4-62a"
+  },
+  "/docs/weeks-8-10/perception-manipulation-e9f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-weeks-8-10-perception-manipulation-96-a-1bb"
+  },
+  "/docs/weeks-8-10/reinforcement-learning-2fe": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-weeks-8-10-reinforcement-learningf-89-1b2"
+  },
+  "/docs/weeks-8-10/sim-to-real-transfer-8a2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-weeks-8-10-sim-to-real-transfer-209-8f8"
   },
   "/-e5f": {
     "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",

@@ -1,7 +1,7 @@
 {
   "id": "chapter-4/index",
-  "title": "Chapter 4: AI-Enabled User Interfaces",
-  "description": "This chapter explores how artificial intelligence can enhance user interfaces, creating more adaptive and intelligent experiences.",
+  "title": "Chapter 4: ROS 2 & Simulation Environments",
+  "description": "This chapter explores ROS 2 fundamentals and simulation environments for Physical AI development.",
   "source": "@site/docs/chapter-4/index.mdx",
   "sourceDirName": "chapter-4",
   "slug": "/chapter-4/",
@@ -16,14 +16,5 @@
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Deployment Strategies",
-    "permalink": "/docs/chapter-3/topic-2"
-  },
-  "next": {
-    "title": "Adaptive UI Components",
-    "permalink": "/docs/chapter-4/topic-1"
   }
 }

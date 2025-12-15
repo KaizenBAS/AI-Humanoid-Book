@@ -1,0 +1,26 @@
+{
+  "id": "weeks-6-7/unity-simulation",
+  "title": "Unity for Robot Simulation and Visualization",
+  "description": "Unity has emerged as a powerful platform for robotics simulation and visualization, offering high-quality graphics rendering, real-time physics simulation, and extensive development tools. Originally a game development platform, Unity has been adapted for robotics applications through specialized packages and plugins that enable robot simulation, perception system testing, and human-robot interaction development.",
+  "source": "@site/docs/weeks-6-7/unity-simulation.mdx",
+  "sourceDirName": "weeks-6-7",
+  "slug": "/weeks-6-7/unity-simulation",
+  "permalink": "/docs/weeks-6-7/unity-simulation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/weeks-6-7/unity-simulation.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Physics Simulation in Robotics",
+    "permalink": "/docs/weeks-6-7/physics-simulation"
+  },
+  "next": {
+    "title": "Weeks 8-10: NVIDIA Isaac Platform",
+    "permalink": "/docs/weeks-8-10/intro"
+  }
+}

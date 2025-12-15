@@ -16,82 +16,229 @@
             },
             {
               "id": "chapter-1/index",
-              "path": "/docs/chapter-1/",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/chapter-1/"
             },
             {
               "id": "chapter-1/topic-1",
-              "path": "/docs/chapter-1/topic-1",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/chapter-1/topic-1"
             },
             {
               "id": "chapter-1/topic-2",
-              "path": "/docs/chapter-1/topic-2",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/chapter-1/topic-2"
             },
             {
               "id": "chapter-2/index",
-              "path": "/docs/chapter-2/",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/chapter-2/"
             },
             {
               "id": "chapter-2/topic-1",
-              "path": "/docs/chapter-2/topic-1",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/chapter-2/topic-1"
             },
             {
               "id": "chapter-2/topic-2",
-              "path": "/docs/chapter-2/topic-2",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/chapter-2/topic-2"
             },
             {
               "id": "chapter-3/index",
-              "path": "/docs/chapter-3/",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/chapter-3/"
             },
             {
               "id": "chapter-3/topic-1",
-              "path": "/docs/chapter-3/topic-1",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/chapter-3/topic-1"
             },
             {
               "id": "chapter-3/topic-2",
-              "path": "/docs/chapter-3/topic-2",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/chapter-3/topic-2"
             },
             {
               "id": "chapter-4/index",
-              "path": "/docs/chapter-4/",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/chapter-4/"
             },
             {
               "id": "chapter-4/topic-1",
-              "path": "/docs/chapter-4/topic-1",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/chapter-4/topic-1"
             },
             {
               "id": "chapter-4/topic-2",
-              "path": "/docs/chapter-4/topic-2",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/chapter-4/topic-2"
             },
             {
               "id": "chapter-5/index",
-              "path": "/docs/chapter-5/",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/chapter-5/"
             },
             {
               "id": "chapter-5/topic-1",
-              "path": "/docs/chapter-5/topic-1",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/chapter-5/topic-1"
             },
             {
               "id": "chapter-5/topic-2",
-              "path": "/docs/chapter-5/topic-2",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/chapter-5/topic-2"
             },
             {
               "id": "intro",
               "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "week-13/conversation-design",
+              "path": "/docs/week-13/conversation-design",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "week-13/gpt-integration",
+              "path": "/docs/week-13/gpt-integration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "week-13/intro",
+              "path": "/docs/week-13/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "week-13/multi-modal-interaction",
+              "path": "/docs/week-13/multi-modal-interaction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "week-13/speech-recognition",
+              "path": "/docs/week-13/speech-recognition",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "weeks-1-2/foundations",
+              "path": "/docs/weeks-1-2/foundations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "weeks-1-2/from-digital-ai",
+              "path": "/docs/weeks-1-2/from-digital-ai",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "weeks-1-2/humanoid-landscape",
+              "path": "/docs/weeks-1-2/humanoid-landscape",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "weeks-1-2/intro",
+              "path": "/docs/weeks-1-2/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "weeks-1-2/sensor-systems",
+              "path": "/docs/weeks-1-2/sensor-systems",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "weeks-11-12/bipedal-locomotion",
+              "path": "/docs/weeks-11-12/bipedal-locomotion",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "weeks-11-12/human-robot-interaction",
+              "path": "/docs/weeks-11-12/human-robot-interaction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "weeks-11-12/intro",
+              "path": "/docs/weeks-11-12/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "weeks-11-12/kinematics-dynamics",
+              "path": "/docs/weeks-11-12/kinematics-dynamics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "weeks-11-12/manipulation-grasping",
+              "path": "/docs/weeks-11-12/manipulation-grasping",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "weeks-3-5/building-packages",
+              "path": "/docs/weeks-3-5/building-packages",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "weeks-3-5/intro",
+              "path": "/docs/weeks-3-5/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "weeks-3-5/launch-files",
+              "path": "/docs/weeks-3-5/launch-files"
+            },
+            {
+              "id": "weeks-3-5/nodes-topics-services",
+              "path": "/docs/weeks-3-5/nodes-topics-services",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "weeks-3-5/ros2-architecture",
+              "path": "/docs/weeks-3-5/ros2-architecture",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "weeks-3-5/ros2-core-concepts",
+              "path": "/docs/weeks-3-5/ros2-core-concepts",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "weeks-6-7/gazebo-environment",
+              "path": "/docs/weeks-6-7/gazebo-environment",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "weeks-6-7/gazebo-setup",
+              "path": "/docs/weeks-6-7/gazebo-setup"
+            },
+            {
+              "id": "weeks-6-7/intro",
+              "path": "/docs/weeks-6-7/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "weeks-6-7/physics-simulation",
+              "path": "/docs/weeks-6-7/physics-simulation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "weeks-6-7/robot-description",
+              "path": "/docs/weeks-6-7/robot-description",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "weeks-6-7/unity-simulation",
+              "path": "/docs/weeks-6-7/unity-simulation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "weeks-6-7/urdf-sdf",
+              "path": "/docs/weeks-6-7/urdf-sdf"
+            },
+            {
+              "id": "weeks-8-10/intro",
+              "path": "/docs/weeks-8-10/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "weeks-8-10/isaac-sdk",
+              "path": "/docs/weeks-8-10/isaac-sdk",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "weeks-8-10/perception-manipulation",
+              "path": "/docs/weeks-8-10/perception-manipulation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "weeks-8-10/reinforcement-learning",
+              "path": "/docs/weeks-8-10/reinforcement-learning",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "weeks-8-10/sim-to-real-transfer",
+              "path": "/docs/weeks-8-10/sim-to-real-transfer",
               "sidebar": "tutorialSidebar"
             }
           ],

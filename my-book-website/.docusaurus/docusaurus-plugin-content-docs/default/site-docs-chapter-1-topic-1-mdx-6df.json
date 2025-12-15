@@ -1,7 +1,7 @@
 {
   "id": "chapter-1/topic-1",
-  "title": "Defining AI-Native",
-  "description": "AI-Native development represents a paradigm shift from traditional software development. Rather than simply adding AI capabilities to existing applications, AI-Native systems are architected with artificial intelligence as the foundational element.",
+  "title": "Why Physical AI Matters",
+  "description": "Humanoid robots are poised to excel in our human-centered world because they share our physical form and can be trained with abundant data from interacting in human environments. This represents a significant transition from AI models confined to digital environments to embodied intelligence that operates in physical space.",
   "source": "@site/docs/chapter-1/topic-1.mdx",
   "sourceDirName": "chapter-1",
   "slug": "/chapter-1/topic-1",
@@ -13,14 +13,5 @@
   "version": "current",
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055000,
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Chapter 1: Introduction to AI-Native Development",
-    "permalink": "/docs/chapter-1/"
-  },
-  "next": {
-    "title": "AI-Native vs Traditional Development",
-    "permalink": "/docs/chapter-1/topic-2"
-  }
+  "frontMatter": {}
 }

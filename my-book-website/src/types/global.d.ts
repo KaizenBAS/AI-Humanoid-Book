@@ -1,4 +1,4 @@
-// Global type definitions for the AI-Native Book Website
+// Global type definitions for the Physical AI Book Website
 
 export interface BookContent {
   id: string;
@@ -11,9 +11,9 @@ export interface BookContent {
 export interface Chapter {
   id: string;
   title: string;
-  topics: Topic[];
   contentPath: string;
   order: number;
+  topics: Topic[];
 }
 
 export interface Topic {

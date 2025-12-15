@@ -1,7 +1,7 @@
 {
   "id": "chapter-5/topic-2",
-  "title": "Adaptive System Updates",
-  "description": "AI-Native systems must adapt to changing conditions through continuous updates that maintain performance while minimizing disruption.",
+  "title": "Capstone: Simulated Humanoid Robot with Conversational AI",
+  "description": "Project Overview",
   "source": "@site/docs/chapter-5/topic-2.mdx",
   "sourceDirName": "chapter-5",
   "slug": "/chapter-5/topic-2",
@@ -13,10 +13,5 @@
   "version": "current",
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055000,
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Model Performance Tracking",
-    "permalink": "/docs/chapter-5/topic-1"
-  }
+  "frontMatter": {}
 }

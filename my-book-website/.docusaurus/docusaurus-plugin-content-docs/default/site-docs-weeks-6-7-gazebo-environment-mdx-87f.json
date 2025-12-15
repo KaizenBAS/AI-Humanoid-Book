@@ -1,0 +1,26 @@
+{
+  "id": "weeks-6-7/gazebo-environment",
+  "title": "Gazebo Simulation Environment",
+  "description": "Gazebo is a 3D simulation environment that provides realistic physics simulation, high-quality graphics, and convenient programmatic interfaces for developing and testing robotic applications. It's widely used in the robotics community for algorithm development, robot testing, and validation before deployment to real hardware.",
+  "source": "@site/docs/weeks-6-7/gazebo-environment.mdx",
+  "sourceDirName": "weeks-6-7",
+  "slug": "/weeks-6-7/gazebo-environment",
+  "permalink": "/docs/weeks-6-7/gazebo-environment",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/weeks-6-7/gazebo-environment.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Weeks 6-7: Robot Simulation with Gazebo",
+    "permalink": "/docs/weeks-6-7/intro"
+  },
+  "next": {
+    "title": "Robot Description: URDF and SDF Formats",
+    "permalink": "/docs/weeks-6-7/robot-description"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "weeks-8-10/perception-manipulation",
+  "title": "AI-Powered Perception and Manipulation",
+  "description": "Introduction to AI-Powered Perception",
+  "source": "@site/docs/weeks-8-10/perception-manipulation.mdx",
+  "sourceDirName": "weeks-8-10",
+  "slug": "/weeks-8-10/perception-manipulation",
+  "permalink": "/docs/weeks-8-10/perception-manipulation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/weeks-8-10/perception-manipulation.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "NVIDIA Isaac SDK and Isaac Sim",
+    "permalink": "/docs/weeks-8-10/isaac-sdk"
+  },
+  "next": {
+    "title": "Reinforcement Learning for Robot Control",
+    "permalink": "/docs/weeks-8-10/reinforcement-learning"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "weeks-6-7/physics-simulation",
+  "title": "Physics Simulation in Robotics",
+  "description": "Physics simulation is the core of realistic robot simulation, enabling accurate interaction between robots and their environment. Proper physics simulation allows for realistic testing of robot behaviors, validation of control algorithms, and prediction of real-world robot performance before deployment on physical hardware.",
+  "source": "@site/docs/weeks-6-7/physics-simulation.mdx",
+  "sourceDirName": "weeks-6-7",
+  "slug": "/weeks-6-7/physics-simulation",
+  "permalink": "/docs/weeks-6-7/physics-simulation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/weeks-6-7/physics-simulation.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Robot Description: URDF and SDF Formats",
+    "permalink": "/docs/weeks-6-7/robot-description"
+  },
+  "next": {
+    "title": "Unity for Robot Simulation and Visualization",
+    "permalink": "/docs/weeks-6-7/unity-simulation"
+  }
+}

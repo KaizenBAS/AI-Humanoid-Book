@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'AI-Native Driven Development',
-  tagline: 'A comprehensive guide to AI-Native development practices',
+  title: 'Physical AI & Humanoid Robotics',
+  tagline: 'A comprehensive 13-week course on Physical AI and humanoid robotics',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -75,9 +75,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'AI-Native Driven Development',
+        title: 'Physical AI & Humanoid Robotics',
         logo: {
-          alt: 'AI-Native Driven Development Logo',
+          alt: 'Physical AI Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -85,7 +85,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Book',
+            label: 'Course',
           },
           {to: '/about', label: 'About', position: 'left'},
           {to: '/contact', label: 'Contact', position: 'left'},
@@ -103,7 +103,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Book',
+                label: 'Course',
                 to: '/docs/intro',
               },
             ],
@@ -135,7 +135,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} AI-Native Driven Development. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Physical AI & Humanoid Robotics. Built with Docusaurus. Made with ❤️ by Bilal`,
       },
       prism: {
         theme: prismThemes.github,

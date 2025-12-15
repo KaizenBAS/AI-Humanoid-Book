@@ -11,7 +11,13 @@ export default function About(): JSX.Element {
             <Card variant="glass">
               <CardContent>
                 <header className="hero hero--primary">
-                  <div className="container">
+                  <div className="container text--center">
+                    <img
+                      src={require('@site/static/img/book-icon.svg').default}
+                      alt="Book Icon"
+                      className="margin-bottom--lg"
+                      style={{ maxWidth: '100px', height: 'auto' }}
+                    />
                     <h1 className="hero__title gradient-text">About the Author</h1>
                   </div>
                 </header>

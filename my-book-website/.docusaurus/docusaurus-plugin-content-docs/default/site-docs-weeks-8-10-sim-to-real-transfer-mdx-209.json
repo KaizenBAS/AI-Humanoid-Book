@@ -1,0 +1,26 @@
+{
+  "id": "weeks-8-10/sim-to-real-transfer",
+  "title": "Sim-to-Real Transfer Techniques",
+  "description": "Introduction to Sim-to-Real Transfer",
+  "source": "@site/docs/weeks-8-10/sim-to-real-transfer.mdx",
+  "sourceDirName": "weeks-8-10",
+  "slug": "/weeks-8-10/sim-to-real-transfer",
+  "permalink": "/docs/weeks-8-10/sim-to-real-transfer",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/weeks-8-10/sim-to-real-transfer.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Reinforcement Learning for Robot Control",
+    "permalink": "/docs/weeks-8-10/reinforcement-learning"
+  },
+  "next": {
+    "title": "Weeks 11-12: Humanoid Robot Development",
+    "permalink": "/docs/weeks-11-12/intro"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "id": "intro",
-  "title": "Introduction",
-  "description": "Welcome to AI-Native Driven Development, a comprehensive guide to building applications that are designed from the ground up with artificial intelligence at their core.",
+  "title": "Course Syllabus: Physical AI & Humanoid Robotics",
+  "description": "Welcome to Physical AI & Humanoid Robotics, a comprehensive 13-week course on building systems that bridge digital AI with physical reality.",
   "source": "@site/docs/intro.mdx",
   "sourceDirName": ".",
   "slug": "/intro",
@@ -19,7 +19,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Chapter 1: Introduction to AI-Native Development",
-    "permalink": "/docs/chapter-1/"
+    "title": "Weeks 1-2: Introduction to Physical AI",
+    "permalink": "/docs/weeks-1-2/intro"
   }
 }

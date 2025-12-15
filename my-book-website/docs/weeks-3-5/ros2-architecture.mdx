@@ -1,0 +1,23 @@
+# ROS 2 Architecture and Core Concepts
+
+ROS 2 (Robot Operating System 2) is a flexible framework for developing robotic applications. Unlike traditional software frameworks, ROS 2 is designed for distributed systems, real-time operation, and resource-constrained environments.
+
+DDS (Data Distribution Service) forms the foundation of ROS 2, providing a communication middleware specification that enables real-time, scalable, and reliable data exchange between devices and applications. This architecture offers several advantages including real-time communication with quality of service (QoS) profiles, scalability for large distributed applications, reliability through built-in message delivery mechanisms, and language independence supporting multiple programming languages.
+
+## Core Components
+
+### Nodes
+Nodes are executables that use ROS 2 to communicate with other nodes. They serve as the fundamental building blocks of a ROS 2 program. Each node performs a specific task such as operating a camera driver or running a path planner, and communicates with others through topics, services, or actions.
+
+### Topics and Messages
+Topics are named buses over which nodes exchange messages. They implement a publish/subscribe communication pattern where publishers send messages to a topic and subscribers receive messages from a topic. Messages are the data packets exchanged between nodes, containing specific information formats that both publishers and subscribers must agree upon.
+
+### Services
+Services provide a request/response pattern of communication between nodes. A service client sends a request message to a service server and waits for a response. This is synchronous communication, meaning the client waits for the server's response before continuing execution.
+
+### Actions
+Actions are a more advanced form of services that can take a long time to execute and provide feedback during execution. They consist of a goal, feedback, and result, making them suitable for long-running tasks that need to report progress or handle cancellations.
+
+Quality of Service (QoS) settings allow customization of communication behavior for different use cases, including durability (whether late-joining subscribers get older messages), reliability (guaranteeing message delivery vs. best-effort), history (how many samples to keep in the queue), and deadline (maximum time between publications).
+
+The parameter system enables nodes to have dynamic configuration parameters that can be modified at runtime, enabling dynamic reconfiguration without restarting nodes. The launch system allows starting multiple nodes with predefined configurations from a single command, managing their lifecycle collectively.

@@ -4,8 +4,8 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "AI-Native Driven Development",
-  "tagline": "A comprehensive guide to AI-Native development practices",
+  "title": "Physical AI & Humanoid Robotics",
+  "tagline": "A comprehensive 13-week course on Physical AI and humanoid robotics",
   "favicon": "img/favicon.ico",
   "url": "https://your-docusaurus-site.example.com",
   "baseUrl": "/",
@@ -68,9 +68,9 @@ export default {
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "AI-Native Driven Development",
+      "title": "Physical AI & Humanoid Robotics",
       "logo": {
-        "alt": "AI-Native Driven Development Logo",
+        "alt": "Physical AI Logo",
         "src": "img/logo.svg"
       },
       "items": [
@@ -78,7 +78,7 @@ export default {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
           "position": "left",
-          "label": "Book"
+          "label": "Course"
         },
         {
           "to": "/about",
@@ -105,7 +105,7 @@ export default {
           "title": "Docs",
           "items": [
             {
-              "label": "Book",
+              "label": "Course",
               "to": "/docs/intro"
             }
           ]
@@ -137,7 +137,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2025 AI-Native Driven Development. Built with Docusaurus."
+      "copyright": "Copyright © 2025 Physical AI & Humanoid Robotics. Built with Docusaurus. Made with ❤️ by Bilal"
     },
     "prism": {
       "theme": {

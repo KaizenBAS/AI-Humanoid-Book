@@ -1,71 +1,22 @@
-# Training and Fine-tuning
+# Option 2 High OpEx: The "Ether" Lab (Cloud-Native)
 
-Training and fine-tuning are fundamental processes in AI-Native development that determine the capabilities and performance of models.
+Best for: Rapid deployment, or students with weak laptops.
 
-## Training Approaches
+## 1. Cloud Workstations (AWS/Azure) Instead of buying PCs, you rent instances.
 
-### Supervised Learning
+- **Instance Type**: AWS g5.2xlarge (A10G GPU, 24GB VRAM) or g6e.xlarge.
+- **Software**: NVIDIA Isaac Sim on Omniverse Cloud (requires specific AMI).
 
-Supervised learning uses labeled datasets to train models:
+### Cost Calculation:
+- Instance cost: ~$1.50/hour (spot/on-demand mix).
+- Usage: 10 hours/week × 12 weeks = 120 hours.
+- Storage (EBS volumes for saving environments): ~$25/quarter.
+- Total Cloud Bill: ~$205 per quarter.
 
-- Classification models for categorical outputs
-- Regression models for numerical predictions
-- Quality of training data directly affects model performance
+## 2. Local "Bridge" Hardware
+You cannot eliminate hardware entirely for "Physical AI." You still need the edge devices to deploy the code physically.
 
-### Unsupervised Learning
-
-Unsupervised learning discovers patterns in unlabeled data:
-
-- Clustering algorithms group similar data points
-- Anomaly detection identifies unusual patterns
-- Dimensionality reduction simplifies complex data
-
-### Reinforcement Learning
-
-Reinforcement learning trains agents through trial and error:
-
-- Reward systems guide learning behavior
-- Applications in game playing and robotics
-- Long-term strategy optimization
-
-## Fine-tuning Strategies
-
-Fine-tuning adapts pre-trained models for specific tasks:
-
-### Transfer Learning
-
-- Leverage knowledge from general domains
-- Requires less data and computational resources
-- Faster deployment of specialized models
-
-### Domain Adaptation
-
-- Adjust models for specific industry contexts
-- Account for domain-specific language and concepts
-- Preserve general capabilities while specializing
-
-### Few-shot Learning
-
-- Adapt with minimal task-specific examples
-- Leverages pre-trained model knowledge
-- Effective for specialized applications with limited data
-
-## Training Optimization
-
-### Data Efficiency
-
-- Data augmentation techniques
-- Active learning for optimal label selection
-- Synthetic data generation
-
-### Computational Efficiency
-
-- Distributed training across multiple devices
-- Mixed precision training
-- Gradient compression for communication efficiency
-
-### Model Performance
-
-- Hyperparameter optimization
-- Regularization to prevent overfitting
-- Cross-validation for performance assessment
+- **Edge AI Kits**: You still need the Jetson Kit for the physical deployment phase.
+- **Cost**: $700 (One-time purchase).
+- **Robot**: You still need one physical robot for the final demo.
+- **Cost**: $3,000 (Unitree Go2 Standard).

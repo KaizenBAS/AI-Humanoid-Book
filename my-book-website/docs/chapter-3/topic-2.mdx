@@ -1,101 +1,20 @@
-# Deployment Strategies
+## 3. The Latency Trap (Hidden Cost)
 
-Deploying AI models requires specialized considerations for performance, scalability, and reliability.
+Simulating in the cloud works well, but controlling a real robot from a cloud instance is dangerous due to latency.
 
-## Model Serving Architectures
+### Solution: 
+Students train in the Cloud, download the model (weights), and flash it to the local Jetson kit.
 
-### Batch Serving
+## 4. The Economy Jetson Student Kit
 
-Batch serving is suitable for scenarios where:
+Best for: Learning ROS 2, Basic Computer Vision, and Sim-to-Real control.
 
-- Real-time responses are not required
-- Processing large numbers of predictions efficiently
-- Workload can be scheduled
+| Component | Model | Price (Approx.) | Notes |
+|-----------|-------|----------------|-------|
+| The Brain | NVIDIA Jetson Orin Nano Super Dev Kit (8GB) | $249 | New official MSRP (Price dropped from ~$499). Capable of 40 TOPS. |
+| The Eyes | Intel RealSense D435i | $349 | Includes IMU (essential for SLAM). Do not buy the D435 (non-i). |
+| The Ears | ReSpeaker USB Mic Array v2.0 | $69 | Far-field microphone for voice commands (Module 4). |
+| Wi-Fi | (Included in Dev Kit) | $0 | The new "Super" kit includes the Wi-Fi module pre-installed. |
+| Power/Misc | SD Card (128GB) + Jumper Wires | $30 | High-endurance microSD card required for the OS. |
 
-Benefits include:
-- Higher throughput for bulk operations
-- Efficient resource utilization
-- Simplified infrastructure requirements
-
-### Real-time Serving
-
-Real-time serving handles individual predictions with:
-
-- Low-latency response requirements
-- Synchronous request handling
-- Individual request processing
-
-Implementation approaches:
-- Dedicated model servers
-- Serverless compute platforms
-- Edge deployment for low latency
-
-### Stream Processing
-
-Stream processing handles continuous data flows:
-
-- Real-time analytics
-- Event-driven model triggering
-- Continuous model updates
-
-## Deployment Platforms
-
-### Cloud Platforms
-
-Cloud platforms offer:
-- Scalable compute resources
-- Managed ML services
-- Integration with other cloud services
-- Auto-scaling capabilities
-
-### Edge Deployment
-
-Edge deployment provides:
-- Reduced latency
-- Offline capability
-- Bandwidth conservation
-- Privacy protection
-
-Considerations include:
-- Limited compute resources
-- Model compression requirements
-- Update mechanisms
-
-## Performance Optimization
-
-### Model Optimization
-
-- Model quantization for reduced size
-- Pruning for computational efficiency
-- Distillation for faster inference
-- Specialized model formats
-
-### Infrastructure Optimization
-
-- GPU/TPU utilization
-- Load balancing for requests
-- Caching for frequent predictions
-- Asynchronous processing patterns
-
-## MLOps Practices
-
-### Model Versioning
-
-- Track model versions and performance
-- A/B testing for model comparison
-- Rollback capabilities for issues
-- Metadata tracking for reproducibility
-
-### Monitoring and Observability
-
-- Prediction quality monitoring
-- Infrastructure performance tracking
-- Drift detection in input data
-- Alerting for model degradation
-
-### Testing Strategies
-
-- Unit tests for model components
-- Integration tests for pipelines
-- Performance benchmarks
-- Bias and fairness validation
+**TOTAL**: ~$700 per kit

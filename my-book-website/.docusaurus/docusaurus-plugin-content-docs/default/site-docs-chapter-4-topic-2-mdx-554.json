@@ -1,7 +1,7 @@
 {
   "id": "chapter-4/topic-2",
-  "title": "Conversational Interfaces",
-  "description": "Conversational interfaces enable natural language interactions between users and systems, representing one of the most intuitive forms of AI-enabled UI.",
+  "title": "Simulation Environments: Gazebo and Unity",
+  "description": "Simulation plays a crucial role in Physical AI development, allowing for rapid prototyping and testing without the risks and costs of physical hardware.",
   "source": "@site/docs/chapter-4/topic-2.mdx",
   "sourceDirName": "chapter-4",
   "slug": "/chapter-4/topic-2",
@@ -13,14 +13,5 @@
   "version": "current",
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055000,
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Adaptive UI Components",
-    "permalink": "/docs/chapter-4/topic-1"
-  },
-  "next": {
-    "title": "Chapter 5: Monitoring and Evolution",
-    "permalink": "/docs/chapter-5/"
-  }
+  "frontMatter": {}
 }

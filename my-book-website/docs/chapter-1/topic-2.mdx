@@ -1,39 +1,21 @@
-# AI-Native vs Traditional Development
+# Hardware Requirements
 
-While traditional software development follows a deterministic approach where specific inputs produce predictable outputs, AI-Native development embraces probabilistic and adaptive systems.
+This course is technically demanding. It sits at the intersection of three heavy computational loads: Physics Simulation (Isaac Sim/Gazebo), Visual Perception (SLAM/Computer Vision), and Generative AI (LLMs/VLA).
 
-## Traditional Development Approach
+Because the capstone involves a "Simulated Humanoid," the primary investment must be in High-Performance Workstations. However, to fulfill the "Physical AI" promise, you also need Edge Computing Kits (brains without bodies) or specific robot hardware.
 
-Traditional software development relies on:
-- Explicitly programmed logic paths
-- Fixed business rules
-- Predictable input/output relationships
-- Manual updates to functionality
+## 1. The "Digital Twin" Workstation (Required per Student)
 
-## AI-Native Development Approach
+This is the most critical component. NVIDIA Isaac Sim is an Omniverse application that requires "RTX" (Ray Tracing) capabilities. Standard laptops (MacBooks or non-RTX Windows machines) will not work.
 
-AI-Native systems use:
-- Learned patterns instead of hard-coded rules
-- Adaptive responses to new data
-- Probabilistic outcomes rather than deterministic ones
-- Self-improvement through continuous learning
+- **GPU (The Bottleneck)**: NVIDIA RTX 4070 Ti (12GB VRAM) or higher.
+  - Why: You need high VRAM to load the USD (Universal Scene Description) assets for the robot and environment, plus run the VLA (Vision-Language-Action) models simultaneously.
+  - Ideal: RTX 3090 or 4090 (24GB VRAM) allows for smoother "Sim-to-Real" training.
 
-## When to Choose Each Approach
+- **CPU**: Intel Core i7 (13th Gen+) or AMD Ryzen 9.
+  - Why: Physics calculations (Rigid Body Dynamics) in Gazebo/Isaac are CPU-intensive.
 
-### Traditional Development is Better For:
+- **RAM**: 64 GB DDR5 (32 GB is the absolute minimum, but will crash during complex scene rendering).
 
-- Systems requiring guaranteed deterministic behavior
-- Applications with clear, unchanging business rules
-- Safety-critical systems where behavior must be predictable
-- Scenarios with limited or static data
-
-### AI-Native Development is Better For:
-
-- Complex problems where rules are difficult to define
-- Applications that need to adapt to changing conditions
-- Systems handling large amounts of variable input data
-- Scenarios requiring pattern recognition or prediction
-
-## Hybrid Approaches
-
-Most successful modern systems combine both approaches, using traditional logic for critical and predictable functions while incorporating AI for complex pattern recognition and adaptive features.
+- **OS**: Ubuntu 22.04 LTS.
+  - Note: While Isaac Sim runs on Windows, ROS 2 (Humble/Iron) is native to Linux. Dual-booting or dedicated Linux machines are mandatory for a friction-free experience.

@@ -1,7 +1,7 @@
 {
   "id": "chapter-3/topic-2",
-  "title": "Deployment Strategies",
-  "description": "Deploying AI models requires specialized considerations for performance, scalability, and reliability.",
+  "title": "topic-2",
+  "description": "3. The Latency Trap (Hidden Cost)",
   "source": "@site/docs/chapter-3/topic-2.mdx",
   "sourceDirName": "chapter-3",
   "slug": "/chapter-3/topic-2",
@@ -13,14 +13,5 @@
   "version": "current",
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055000,
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Training and Fine-tuning",
-    "permalink": "/docs/chapter-3/topic-1"
-  },
-  "next": {
-    "title": "Chapter 4: AI-Enabled User Interfaces",
-    "permalink": "/docs/chapter-4/"
-  }
+  "frontMatter": {}
 }

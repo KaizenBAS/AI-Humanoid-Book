@@ -1,7 +1,7 @@
 {
   "id": "chapter-3/index",
-  "title": "Chapter 3: Model Development and Deployment",
-  "description": "This chapter covers the complete lifecycle of AI models from initial development through production deployment and ongoing management.",
+  "title": "Chapter 3: The \"Ether\" Lab (Cloud-Native)",
+  "description": "This chapter explores the cloud-native approach to Physical AI development with remote workstations and virtual environments.",
   "source": "@site/docs/chapter-3/index.mdx",
   "sourceDirName": "chapter-3",
   "slug": "/chapter-3/",
@@ -16,14 +16,5 @@
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Data Pipeline Design",
-    "permalink": "/docs/chapter-2/topic-2"
-  },
-  "next": {
-    "title": "Training and Fine-tuning",
-    "permalink": "/docs/chapter-3/topic-1"
   }
 }

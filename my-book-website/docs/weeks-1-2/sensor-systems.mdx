@@ -1,0 +1,107 @@
+# Sensor Systems: LIDAR, Cameras, IMUs, Force/Torque Sensors
+
+## Introduction
+
+Sensory information forms the foundation of physical AI systems. A robot's ability to perceive its environment is critical for safe and effective operation in physical space.
+
+## Types of Sensors
+
+### LiDAR (Light Detection and Ranging)
+LiDAR sensors emit laser pulses and measure the time to return to create precise 3D maps of the environment.
+
+**Applications:**
+- 3D mapping of surroundings
+- Obstacle detection and avoidance
+- Navigation and localization (SLAM)
+- Object recognition and distance estimation
+
+**Advantages:**
+- High precision distance measurements
+- Works in various lighting conditions
+- Can detect transparent and reflective surfaces
+
+**Limitations:**
+- Expensive compared to other options
+- Can be affected by weather conditions
+- Limited vertical resolution in some sensors
+
+### Cameras
+Cameras provide visual information in the form of images or video streams.
+
+**Types:**
+- **RGB Cameras**: Standard color imaging
+- **Stereo Cameras**: Depth estimation using two lenses
+- **Thermal Cameras**: Heat signature detection
+- **Event Cameras**: Ultra-fast response to motion
+- **Polarization Cameras**: Surface property detection
+
+**Applications:**
+- Object recognition and classification
+- Visual odometry and SLAM
+- Human detection and gesture recognition
+- Surface property analysis
+
+### IMUs (Inertial Measurement Units)
+IMUs combine accelerometers, gyroscopes, and sometimes magnetometers to measure motion and orientation.
+
+**Components:**
+- **Accelerometer**: Measures linear acceleration
+- **Gyroscope**: Measures angular velocity
+- **Magnetometer**: Measures magnetic field (heading reference)
+
+**Applications:**
+- Robot stabilization and balance
+- Orientation tracking
+- Motion detection and classification
+- Navigation in GPS-denied environments
+
+### Force/Torque Sensors
+Force/torque sensors measure applied forces and moments in multiple axes.
+
+**Types:**
+- Strain gauge-based sensors
+- Piezoelectric sensors
+- Optical sensors
+
+**Applications:**
+- Precision manipulation tasks
+- Assembly operations
+- Human-safe interaction
+- Surface contact detection and characterization
+
+## Sensor Integration
+
+### Sensor Fusion
+Multiple sensors are combined to improve perception:
+
+- **Kalman Filters**: Combine uncertain measurements optimally
+- **Particle Filters**: Handle non-linear and multi-modal distributions
+- **Deep Learning**: End-to-end learning from multiple sensor inputs
+
+### Calibration
+Proper calibration is essential for accurate sensing:
+
+- **Intrinsic Calibration**: Internal sensor parameters (e.g., camera focal length)
+- **Extrinsic Calibration**: Relationship between sensors and robot frame
+- **Temporal Calibration**: Synchronization of sensor readings
+
+## Practical Considerations
+
+### Noise and Filtering
+Real sensors have noise that must be handled:
+- Low-pass filtering for stable readings
+- Robust statistics for outlier rejection
+- Adaptive filtering for changing conditions
+
+### Latency
+Minimizing sensor-to-decision latency is critical:
+- Real-time processing requirements
+- Communication and computation delays
+- Asynchronous sensor data handling
+
+### Environmental Factors
+Operating conditions affect sensor performance:
+- Temperature variations
+- Dust and moisture protection
+- Vibration isolation
+- Electromagnetic interference

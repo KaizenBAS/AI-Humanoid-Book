@@ -1,7 +1,7 @@
 {
   "id": "chapter-3/topic-1",
-  "title": "Training and Fine-tuning",
-  "description": "Training and fine-tuning are fundamental processes in AI-Native development that determine the capabilities and performance of models.",
+  "title": "Option 2 High OpEx: The \"Ether\" Lab (Cloud-Native)",
+  "description": "Best for: Rapid deployment, or students with weak laptops.",
   "source": "@site/docs/chapter-3/topic-1.mdx",
   "sourceDirName": "chapter-3",
   "slug": "/chapter-3/topic-1",
@@ -13,14 +13,5 @@
   "version": "current",
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055000,
-  "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Chapter 3: Model Development and Deployment",
-    "permalink": "/docs/chapter-3/"
-  },
-  "next": {
-    "title": "Deployment Strategies",
-    "permalink": "/docs/chapter-3/topic-2"
-  }
+  "frontMatter": {}
 }
