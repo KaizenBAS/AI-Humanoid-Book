@@ -26,6 +26,11 @@
       "type": "package",
       "name": "@docusaurus/theme-classic",
       "version": "3.9.2"
+    },
+    "docusaurus-plugin-chatbot": {
+      "type": "package",
+      "name": "docusaurus-plugin-chatbot",
+      "version": "1.0.0"
     }
   }
 }

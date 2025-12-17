@@ -69,6 +69,10 @@ const config = {
     ],
   ],
 
+  plugins: [
+    './src/plugins/docusaurus-plugin-chatbot',  // Add the chatbot plugin
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({

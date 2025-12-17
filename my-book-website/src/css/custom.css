@@ -58,6 +58,55 @@ html {
   box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
+/* Chatbot styles */
+.chatbot-button {
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.chatbot-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+.chatbot-modal {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Custom scrollbars for chat history */
+.chat-history {
+  scrollbar-width: thin;
+  scrollbar-color: var(--ifm-color-primary) #f1f1f1;
+}
+
+.chat-history::-webkit-scrollbar {
+  width: 8px;
+}
+
+.chat-history::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.chat-history::-webkit-scrollbar-thumb {
+  background: var(--ifm-color-primary);
+  border-radius: 4px;
+}
+
+.chat-history::-webkit-scrollbar-thumb:hover {
+  background: var(--ifm-color-primary-dark);
+}
+
+/* Responsive chatbot */
+@media (max-width: 768px) {
+  .chatbot-modal {
+    width: 95%;
+    height: 70vh;
+    margin: 0 auto;
+  }
+}
+
 /* Custom styles for mobile */
 @media (max-width: 768px) {
   .hero--primary {

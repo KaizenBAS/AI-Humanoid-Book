@@ -1,0 +1,20 @@
+{
+  "name": "docusaurus-plugin-chatbot",
+  "version": "1.0.0",
+  "description": "Docusaurus plugin for integrated RAG chatbot",
+  "main": "index.js",
+  "keywords": [
+    "docusaurus",
+    "plugin",
+    "chatbot",
+    "rag",
+    "ai"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "peerDependencies": {
+    "@docusaurus/core": "^3.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
