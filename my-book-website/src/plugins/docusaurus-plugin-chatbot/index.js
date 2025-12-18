@@ -35,7 +35,9 @@ function pluginChatbot(content, context) {
 
     // Inject configuration via window object
     injectHtmlTags() {
-      const finalBackendUrl = backendUrl || 'http://localhost:3000'; // Default for local development
+      const finalBackendUrl = process.env.BACKEND_URL ||
+                             backendUrl ||
+                             'https://ai-humanoid-book-wckc.vercel.app'; // Your deployed backend URL
       return {
         preBodyTags: [
           `<script>

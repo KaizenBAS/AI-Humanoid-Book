@@ -48,8 +48,13 @@ const StyledChatInterface = ({ backendUrl = 'http://localhost:8000' }) => {
         selected_text: selectedText || null,
       };
 
+      // Determine the backend URL - prioritize window variable if available
+      const effectiveBackendUrl = typeof window !== 'undefined' && window.BACKEND_URL
+        ? window.BACKEND_URL
+        : backendUrl;
+
       // Call the backend API
-      const response = await fetch(`${backendUrl}/api/chat`, {
+      const response = await fetch(`${effectiveBackendUrl}/api/chat`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
