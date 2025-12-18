@@ -73,7 +73,7 @@ const config = {
     [
       './src/plugins/docusaurus-plugin-chatbot',
       {
-        backendUrl: process.env.BACKEND_URL || 'https://your-backend-project-name.vercel.app'
+        backendUrl: process.env.BACKEND_URL || 'https://ai-humanoid-book-wckc.vercel.app'
       }
     ],  // Add the chatbot plugin with configuration
   ],
