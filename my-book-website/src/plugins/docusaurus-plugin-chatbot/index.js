@@ -33,13 +33,13 @@ function pluginChatbot(content, context) {
       ];
     },
 
-    // Inject configuration via window object
+    // Inject configuration via window object in head
     injectHtmlTags() {
       const finalBackendUrl = process.env.BACKEND_URL ||
                              backendUrl ||
                              'https://ai-humanoid-book-wckc.vercel.app'; // Your deployed backend URL
       return {
-        preBodyTags: [
+        headTags: [
           `<script>
             window.BACKEND_URL = '${finalBackendUrl}';
           </script>`,
