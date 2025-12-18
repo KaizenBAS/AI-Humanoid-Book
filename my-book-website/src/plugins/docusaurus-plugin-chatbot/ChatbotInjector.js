@@ -1,12 +1,15 @@
-import React from 'react';
-import { createRoot } from 'react-dom/client';
-import StyledChatInterface from '../../components/Chatbot/StyledChatInterface';
-
 // Create a root element for the chatbot
 function injectChatbot() {
-  // Configuration - you can change the backend URL here
-  // Default URL for the backend API
-  const backendUrl = 'http://localhost:3000'; // Updated to match the Next.js backend port
+  // Only run in browser environment (not during SSR)
+  if (typeof window === 'undefined' || typeof document === 'undefined') {
+    return;
+  }
+
+  // Configuration - use the backend URL passed from the Docusaurus config
+  // For production deployment, set via environment variables in Vercel
+  const backendUrl = typeof window !== 'undefined' && window.BACKEND_URL ?
+                    window.BACKEND_URL :
+                    'https://your-backend-project-name.vercel.app'; // Replace with your actual backend URL after deployment
 
   let container = document.getElementById('chatbot-root');
 
@@ -18,20 +21,35 @@ function injectChatbot() {
   }
 
   if (container) {
-    const root = createRoot(container);
-    root.render(<StyledChatInterface backendUrl={backendUrl} />);
+    // Dynamically import React and related modules
+    import('react').then(React => {
+      import('react-dom/client').then(ReactDOMClient => {
+        import('../../components/Chatbot/ClientOnlyChatbot').then(ClientOnlyChatbotModule => {
+          const { default: ClientOnlyChatbot } = ClientOnlyChatbotModule;
 
-    // Debug: Log that the chatbot has been injected
-    console.log("Chatbot injected successfully");
+          const root = ReactDOMClient.createRoot(container);
+          root.render(React.createElement(ClientOnlyChatbot, { backendUrl }));
+
+          // Debug: Log that the chatbot has been injected
+          console.log("Chatbot injected successfully");
+        }).catch(error => {
+          console.error('Error loading ClientOnlyChatbot:', error);
+        });
+      }).catch(error => {
+        console.error('Error loading createRoot:', error);
+      });
+    }).catch(error => {
+      console.error('Error loading React:', error);
+    });
   } else {
     console.error("Chatbot container element not found or created");
   }
 }
 
 // Wait for the DOM to be fully loaded before injecting the chatbot
-if (document.readyState === 'loading') {
+if (typeof document !== 'undefined' && document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', injectChatbot);
-} else {
+} else if (typeof document !== 'undefined') {
   // DOM is already ready, so execute immediately
   injectChatbot();
 }

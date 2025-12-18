@@ -70,7 +70,12 @@ const config = {
   ],
 
   plugins: [
-    './src/plugins/docusaurus-plugin-chatbot',  // Add the chatbot plugin
+    [
+      './src/plugins/docusaurus-plugin-chatbot',
+      {
+        backendUrl: process.env.BACKEND_URL || 'https://your-backend-project-name.vercel.app'
+      }
+    ],  // Add the chatbot plugin with configuration
   ],
 
   themeConfig:

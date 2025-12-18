@@ -9,7 +9,9 @@ async function loadPluginContent(actions, options) {
   // This function loads the plugin content
   return {
     name: 'chatbot-plugin',
-    content: {}, // No special content needed for this plugin
+    content: {
+      options: options, // Pass the options to the plugin content
+    },
   };
 }
 
@@ -19,6 +21,9 @@ async function loadPluginContent(actions, options) {
  * @returns {import('@docusaurus/types').Plugin}
  */
 function pluginChatbot(content, context) {
+  const { baseUrl, siteConfig } = context;
+  const { backendUrl } = content.options || {};
+
   return {
     name: 'docusaurus-plugin-chatbot',
 
@@ -28,10 +33,15 @@ function pluginChatbot(content, context) {
       ];
     },
 
-    // Remove the manual HTML injection since we're creating it in the injector
-    // This avoids potential conflicts
+    // Inject configuration via window object
     injectHtmlTags() {
+      const finalBackendUrl = backendUrl || 'http://localhost:3000'; // Default for local development
       return {
+        preBodyTags: [
+          `<script>
+            window.BACKEND_URL = '${finalBackendUrl}';
+          </script>`,
+        ],
         postBodyTags: [
           `<div id="chatbot-root" style="position: relative; z-index: 9998;"></div>`,
         ],
@@ -41,5 +51,10 @@ function pluginChatbot(content, context) {
 }
 
 module.exports = pluginChatbot;
-module.exports.validateOptions = () => ({});
+
 module.exports.loadPluginContent = loadPluginContent;
+
+// Simplified validation that just returns the options as is
+module.exports.validateOptions = ({ options }) => {
+  return options || {};
+};

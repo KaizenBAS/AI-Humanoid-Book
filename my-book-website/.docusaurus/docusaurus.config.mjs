@@ -66,7 +66,12 @@ export default {
     ]
   ],
   "plugins": [
-    "./src/plugins/docusaurus-plugin-chatbot"
+    [
+      "./src/plugins/docusaurus-plugin-chatbot",
+      {
+        "backendUrl": "https://your-backend-project-name.vercel.app"
+      }
+    ]
   ],
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
