@@ -49,7 +49,7 @@ const StyledChatInterface = ({ backendUrl = 'http://localhost:8000' }) => {
       };
 
       // Call the backend API
-      const response = await fetch(`${backendUrl}/api/v1/chat/query`, {
+      const response = await fetch(`${backendUrl}/api/chat`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

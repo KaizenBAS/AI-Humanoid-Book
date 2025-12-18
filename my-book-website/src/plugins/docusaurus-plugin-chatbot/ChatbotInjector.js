@@ -6,7 +6,7 @@ import StyledChatInterface from '../../components/Chatbot/StyledChatInterface';
 function injectChatbot() {
   // Configuration - you can change the backend URL here
   // Default URL for the backend API
-  const backendUrl = 'http://localhost:8000'; // Change this if your backend runs on a different port
+  const backendUrl = 'http://localhost:3000'; // Updated to match the Next.js backend port
 
   let container = document.getElementById('chatbot-root');
 
