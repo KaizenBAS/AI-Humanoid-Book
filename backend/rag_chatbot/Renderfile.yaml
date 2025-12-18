@@ -6,13 +6,15 @@ services:
   startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
   envVars:
   - key: PORT
-    value: 8000
+    value: $PORT
   - key: DATABASE_URL
     sync: false
   - key: QDRANT_API_KEY
     sync: false
   - key: QDRANT_HOST
     sync: false
+  - key: QDRANT_PORT
+    value: "6333"
   - key: QDRANT_COLLECTION_NAME
     value: book_content
   - key: COHERE_API_KEY
